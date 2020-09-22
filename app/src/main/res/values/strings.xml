@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Maternal health</string>
+    <string name="auth_failed">authentication failed</string>
+    <string name="minimum_password">Password must be more than 5 characters</string>
+    <string name="title_activity_patient">Patients</string>
+    <string name="title_activity_staff">Staffs</string>
+    <string name="title_activity_appointment">AppointmentActivity</string>
+    <string name="title_activity_check_up">Check up</string>
+    <string name="title_activity_patient_dashboard">PatientDashboard</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_patient_dash_board">PatientDashBoard</string>
+    <string name="doctor">Doctor</string>
+    <string name="patient">Patient</string>
+    <string name="location_text">"Latitude: %1$.4f \n Longitude: %2$.4f\n Timestamp: %3$tr"</string>
+    <string name="cancel_message">Do you wish to cancel the appointment?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="dialog_title">Cancel Appointment</string>
+</resources>

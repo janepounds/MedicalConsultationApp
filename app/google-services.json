@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "809026528388",
+    "firebase_url": "https://maternal-health-app.firebaseio.com",
+    "project_id": "maternal-health-app",
+    "storage_bucket": "maternal-health-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809026528388:android:4358e056cee758c2584ed1",
+        "android_client_info": {
+          "package_name": "com.example.maternalhealthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809026528388-m9g6qsnthgv3hule4gbogkrn6puh1aqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maternalhealthapp",
+            "certificate_hash": "1aefab19fd291e8e7862cc58c5bae9bfc7114b2c"
+          }
+        },
+        {
+          "client_id": "809026528388-5su173lj5dfu4355aag5blb7ts74b41i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmZsKwQ3pVXMLHRbBBx0stKfzDlnbTlRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809026528388-5su173lj5dfu4355aag5blb7ts74b41i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

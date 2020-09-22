@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maternalhealthapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="E-Consultation"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TreatmentDetails">
+
+        </activity>
+        <activity
+            android:name=".Examination"
+            android:parentActivityName=".MainActivity"></activity>
+
+        <activity
+            android:name=".ApproveAppointment"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MyAppointments"
+            android:parentActivityName=".PatientHome"></activity>
+        <activity
+            android:name=".BookAppointment"
+            android:parentActivityName=".AddAppointments"></activity>
+        <activity
+            android:name=".MyCheckups"
+            android:parentActivityName=".PatientHome"></activity>
+        <activity
+            android:name=".AddAppointments"
+            android:parentActivityName=".PatientHome">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PatientHome" />
+        <activity android:name=".Profile" />
+        <activity android:name=".UserProfile" />
+        <activity
+            android:name=".AddPatient"
+            android:parentActivityName=".PatientActivity" />
+        <activity
+            android:name=".CheckUpActivity"
+            android:label="@string/title_activity_check_up"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AppointmentActivity"
+            android:label="@string/title_activity_appointment"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StaffActivity"
+            android:label="@string/title_activity_staff"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PatientActivity"
+            android:label="@string/title_activity_patient"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
